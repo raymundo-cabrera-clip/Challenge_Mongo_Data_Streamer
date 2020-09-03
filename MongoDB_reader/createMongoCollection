@@ -1,0 +1,9 @@
+use challengeDB
+db.challengeCollection.insertOne(
+    {
+        _id: 1,
+        title: "title",
+        description: "new record",
+        Date: ISODate("2020-08-31T01:11:18.965Z")
+    }
+ )
